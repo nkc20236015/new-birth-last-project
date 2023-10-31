@@ -3,7 +3,24 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Beam
+  - RotatedWall
+  - Edge2DDownOnly
+  - Edge2DUpOnly
+  - UIControl
+  - Block
+  - Friction
+  - NoClimb
+  - PushBlock
+  - SlowEnemy
+  - FireArm
+  - MeleeSword
+  - Ground
+  - Spike
+  - Avoid
+  - RailRight
+  - RailLeft
   layers:
   - Default
   - TransparentFX
@@ -11,13 +28,13 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - World
+  - Platform
+  - Enemy
+  - Player
+  - Vehicle
+  - Hide
+  - GrabItem
   - 
   - 
   - 
@@ -38,6 +55,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3002075567
+    locked: 0
+  - name: Hide
+    uniqueID: 3558103599
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
