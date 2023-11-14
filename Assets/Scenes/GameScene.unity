@@ -3110,12 +3110,9 @@ GameObject:
   - component: {fileID: 965031370}
   - component: {fileID: 965031369}
   - component: {fileID: 965031368}
-  - component: {fileID: 965031367}
   - component: {fileID: 965031372}
+  - component: {fileID: 965031374}
   - component: {fileID: 965031373}
-  - component: {fileID: 965031376}
-  - component: {fileID: 965031375}
-  - component: {fileID: 965031377}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -4108,65 +4105,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &965031367
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965031361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8721728c037742b4782cf8e4d0d09632, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeSetup: 0
-  nodeState: 0
-  nodeType: 1
-  nodeParent: {fileID: 0}
-  completed: 0
-  nameType: FollowTarget
-  fsmChild: 
-  fsmIndex: 0
-  selectCounter: 10
-  failedCounter: 10
-  interruptCounter: 10
-  rectSize: {x: 0, y: 0}
-  rectPosition: {x: 0, y: 0}
-  add: 0
-  active: 0
-  delete: 0
-  deleteAsk: 0
-  showInfo: 0
-  failed: 0
-  foldOut: 1
-  inspect: 0
-  comments: 0
-  isDragged: 0
-  wasDragged: 0
-  rectActive: 0
-  copySelected: 0
-  hideChildren: 0
-  interruptCheck: 0
-  inspectSelected: 0
-  lookingForChild: 0
-  childActive: 0
-  openNext: 0
-  canHaveChildren: 1
-  refName:
-  - Player
-  message: []
-  target: {fileID: 965031369}
-  axis: 1
-  speed: 5
-  findDistance: 0
-  hasGravity: 0
-  pauseTimer: 0
-  pauseOnChange: 0
-  startIndex: 0
-  xVelRef: 0
-  crossedThreshold: 0
-  refreshTarget: 1
 --- !u!114 &965031368
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4331,7 +4269,6 @@ MonoBehaviour:
   - {fileID: 965031369}
   - {fileID: 965031368}
   - {fileID: 965031372}
-  - {fileID: 965031376}
   tempChildren: []
   units: []
   inspectNode: {fileID: 0}
@@ -4383,28 +4320,19 @@ MonoBehaviour:
   selectPosition: {x: 0, y: 0}
   ScrollPosition: {x: 0, y: 0}
   startHoldPoint: {x: 0, y: 0}
-  stateActionIndex: {x: 1, y: 1}
+  stateActionIndex: {x: 0, y: 1}
   state:
   - action:
-    - node: {fileID: 965031373}
-      onSuccess: 
-      onFailure: 
-      goToSuccess: 0
-      goToFailure: 0
-      foldOut: 0
-      deleteAsk: 0
-      delete: 0
-      add: 0
-    - node: {fileID: 965031375}
-      onSuccess: FollowTarget
-      onFailure: Patrol
+    - node: {fileID: 965031374}
+      onSuccess: Chase
+      onFailure: Folow
       goToSuccess: 1
       goToFailure: 0
       foldOut: 0
       deleteAsk: 0
       delete: 0
       add: 0
-    stateName: Patrol
+    stateName: Folow
     defaultSignal: Animation Signal
     cantInterrupt: 0
     useSignal: 0
@@ -4422,33 +4350,42 @@ MonoBehaviour:
     menu: 1
     signalIndex: 0
   - action:
-    - node: {fileID: 965031367}
-      onSuccess: Patrol
-      onFailure: Patrol
-      goToSuccess: 0
+    - node: {fileID: 965031373}
+      onSuccess: Folow
+      onFailure: Folow
+      goToSuccess: 1
       goToFailure: 0
       foldOut: 0
       deleteAsk: 0
       delete: 0
       add: 0
-    - node: {fileID: 965031377}
-      onSuccess: Patrol
-      onFailure: Patrol
-      goToSuccess: 0
-      goToFailure: 1
-      foldOut: 0
-      deleteAsk: 0
-      delete: 0
-      add: 0
-    stateName: FollowTarget
-    defaultSignal: Animation Signal
+    stateName: Chase
+    defaultSignal: chase
     cantInterrupt: 0
-    useSignal: 0
+    useSignal: 1
     childIndex: 0
     type: 0
     showStateExtra: 0
     editName: 0
-    signal: 0
+    signal: 1
+    changeState: 0
+    deleteAsk: 0
+    foldOut: 1
+    active: 0
+    delete: 0
+    add: 0
+    menu: 1
+    signalIndex: 0
+  - action: []
+    stateName: Slide
+    defaultSignal: Animation Signal
+    cantInterrupt: 0
+    useSignal: 1
+    childIndex: 0
+    type: 0
+    showStateExtra: 0
+    editName: 1
+    signal: 1
     changeState: 0
     deleteAsk: 0
     foldOut: 1
@@ -4547,15 +4484,15 @@ MonoBehaviour:
   inspectSelected: 0
   lookingForChild: 0
   childActive: 0
-  openNext: 0
+  openNext: 1
   canHaveChildren: 1
   refName:
-  - PatorolPoints
+  - Player
   message: []
-  target: {fileID: 965031372}
+  target: {fileID: 965031369}
   axis: 1
-  speed: 3
-  findDistance: 0
+  speed: 8
+  findDistance: 3.5
   hasGravity: 0
   pauseTimer: 0
   pauseOnChange: 0
@@ -4563,7 +4500,7 @@ MonoBehaviour:
   xVelRef: 0
   crossedThreshold: 0
   refreshTarget: 1
---- !u!114 &965031375
+--- !u!114 &965031374
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4572,93 +4509,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 965031361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb2d7549e6884f040a147156b3b3d482, type: 3}
+  m_Script: {fileID: 11500000, guid: 8721728c037742b4782cf8e4d0d09632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nodeSetup: 0
   nodeState: 0
-  nodeType: 3
+  nodeType: 1
   nodeParent: {fileID: 0}
   completed: 0
-  nameType: FindTarget
-  fsmChild: 
-  fsmIndex: 0
-  selectCounter: 10
-  failedCounter: 10
-  interruptCounter: 10
-  rectSize: {x: 0, y: 0}
-  rectPosition: {x: 0, y: 0}
-  add: 0
-  active: 0
-  delete: 0
-  deleteAsk: 0
-  showInfo: 1
-  failed: 0
-  foldOut: 1
-  inspect: 0
-  comments: 0
-  isDragged: 0
-  wasDragged: 0
-  rectActive: 0
-  copySelected: 0
-  hideChildren: 0
-  interruptCheck: 0
-  inspectSelected: 0
-  lookingForChild: 0
-  childActive: 0
-  openNext: 1
-  canHaveChildren: 1
-  refName:
-  - Player
-  - Territory
-  message: []
-  target: {fileID: 965031369}
-  findType: 2
-  radius: 0
-  mirror: 0
-  offset: {x: 0, y: 0}
-  distance: {x: 0, y: 0}
-  territory: {fileID: 965031376}
---- !u!114 &965031376
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965031361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3f15aca995a94c47a2cdad732962cce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dataName: Territory
-  blackboardType: 1
-  foldOut: 1
-  delete: 0
-  deleteAsk: 0
-  refName: []
-  bounds:
-    position: {x: -10, y: -1.25}
-    size: {x: 28.125, y: 8.25}
-  oldPosition: {x: 2.5, y: 0.25, z: 0}
---- !u!114 &965031377
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965031361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb2d7549e6884f040a147156b3b3d482, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeSetup: 0
-  nodeState: 0
-  nodeType: 3
-  nodeParent: {fileID: 0}
-  completed: 0
-  nameType: FindTarget
+  nameType: FollowTarget
   fsmChild: 
   fsmIndex: 0
   selectCounter: 10
@@ -4688,15 +4547,18 @@ MonoBehaviour:
   canHaveChildren: 1
   refName:
   - Player
-  - Territory
   message: []
   target: {fileID: 965031369}
-  findType: 2
-  radius: 0
-  mirror: 0
-  offset: {x: 0, y: 0}
-  distance: {x: 0, y: 0}
-  territory: {fileID: 965031376}
+  axis: 1
+  speed: 2
+  findDistance: 16
+  hasGravity: 0
+  pauseTimer: 0
+  pauseOnChange: 0
+  startIndex: 0
+  xVelRef: 0
+  crossedThreshold: 0
+  refreshTarget: 1
 --- !u!1 &1094288544
 GameObject:
   m_ObjectHideFlags: 0
@@ -7198,7 +7060,7 @@ MonoBehaviour:
       totalTime: 0
       level: 0
     - initialized: 1
-      totalTime: 2200.5654
+      totalTime: 2989.6301
       level: 0
     currentSlot: 2
     gameName: TheGame
