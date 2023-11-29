@@ -45050,7 +45050,7 @@ MonoBehaviour:
   - {fileID: 1645267935}
   - {fileID: 752570401}
   startValue: 3
-  discreteSaveKey: 
+  discreteSaveKey: 09b35b90-1ec7-43e0-b28b-79706c6e97a3
   canIncrease: 0
   saveDiscreteManually: 0
   saveFloat:
@@ -45890,9 +45890,9 @@ MonoBehaviour:
   deleteAsk: 0
   refName: []
   bounds:
-    position: {x: -8, y: -0.5}
+    position: {x: -14, y: 0.25}
     size: {x: 3.625, y: 5.75}
-  oldPosition: {x: 0, y: 0, z: 0}
+  oldPosition: {x: -6, y: 0.75, z: 0}
 --- !u!114 &1808541696
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -46045,7 +46045,7 @@ MonoBehaviour:
     e33: 0
   tempNameType: 
   inspectNameType: 
-  barIndex: 3
+  barIndex: 0
   tempUnits: 0
   menuIndex: 0
   deleteIndex: 0
@@ -46433,8 +46433,8 @@ MonoBehaviour:
   playInInspector: 1
   playInScene: 0
   resetPlayFrame: 0
-  frameCounter: 0
-  frameTimer: 0.09832764
+  frameCounter: 1
+  frameTimer: -165.2105
   zoom: 0.5
   propertyFoldOut: 0
   resetSprites: 0
@@ -46594,7 +46594,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1808541688}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6, y: 0.65, z: 0}
+  m_LocalPosition: {x: -6, y: 0.75, z: 0}
   m_LocalScale: {x: 1.25, y: 1.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -49133,7 +49133,7 @@ MonoBehaviour:
   sort: 0
   add: 0
   active: 0
-  foldOut: 0
+  foldOut: 1
   open: 0
   delete: 0
   deleteAsk: 0
@@ -49151,18 +49151,18 @@ MonoBehaviour:
   scrollPosition: {x: 0, y: 0}
   offsetPosition: {x: 59.75, y: 59.75}
   color: {r: 1, g: 1, b: 1, a: 1}
-  playInInspector: 1
+  playInInspector: 0
   playInScene: 0
   resetPlayFrame: 0
-  frameCounter: 1
-  frameTimer: -29.761364
+  frameCounter: 0
+  frameTimer: 0
   zoom: 0.5
   propertyFoldOut: 0
   resetSprites: 0
   propertyIndex: 0
   rendererSprite: {fileID: 0}
   settingRenderer: 0
-  spriteIndex: 0
+  spriteIndex: 1
   scrollIndex: 0
   sprites:
   - property: []
@@ -52779,7 +52779,7 @@ MonoBehaviour:
       keyboardFoldOut: 0
     edit: 0
     close: 0
-    foldOut: 0
+    foldOut: 1
     view: 1
   parallax:
     enable: 1
@@ -52797,7 +52797,7 @@ MonoBehaviour:
       autoScroll: 0
       open: 0
     signalIndex: 0
-    foldOut: 0
+    foldOut: 1
     active: 0
     close: 0
     edit: 1
@@ -52854,7 +52854,7 @@ MonoBehaviour:
       size: {x: 225, y: 36}
     edit: 1
     close: 0
-    foldOut: 0
+    foldOut: 1
     view: 1
   pixelPerfect: {fileID: 536243337610341717}
   enablePixelPerfect: 1
@@ -61567,15 +61567,15 @@ MonoBehaviour:
   save:
     slot:
     - initialized: 1
-      totalTime: 7530.421
-      level: 0
-    - initialized: 0
       totalTime: 0
       level: 0
-    - initialized: 0
+    - initialized: 1
       totalTime: 0
       level: 0
-    currentSlot: 0
+    - initialized: 1
+      totalTime: 4410.834
+      level: 0
+    currentSlot: 2
     gameName: TheGame
     navigate: 0
     marked: 0
@@ -61623,7 +61623,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f194e53820b58144beb92b5a7d49a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effect: []
+  effect:
+  - gameObject: {fileID: 1454217450}
 --- !u!114 &5778069457281018982
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -63327,7 +63328,7 @@ MonoBehaviour:
   sort: 0
   add: 0
   active: 0
-  foldOut: 0
+  foldOut: 1
   open: 0
   delete: 0
   deleteAsk: 0
@@ -63343,20 +63344,20 @@ MonoBehaviour:
   tabIndex: 0
   previewArea: 1
   scrollPosition: {x: 0, y: 0}
-  offsetPosition: {x: 0, y: 0}
+  offsetPosition: {x: 76.75, y: 76.75}
   color: {r: 0.18431371, g: 0.79006374, b: 1, a: 1}
   playInInspector: 0
   playInScene: 0
   resetPlayFrame: 0
   frameCounter: 0
   frameTimer: 0
-  zoom: 1
+  zoom: 0.5
   propertyFoldOut: 0
   resetSprites: 0
   propertyIndex: -1
   rendererSprite: {fileID: 6131979675351488541, guid: 033bb638409647e48bde1952d2433a55, type: 3}
   settingRenderer: 0
-  spriteIndex: 18
+  spriteIndex: 7
   scrollIndex: 0
   sprites:
   - property: []
@@ -65175,7 +65176,7 @@ MonoBehaviour:
     hasTransition: 0
     hasChangedDirection: 0
     active: 0
-    frameIndex: 0
+    frameIndex: 2
     signalIndex: 0
     globalRate: 9
     transitionFoldOut: 0
@@ -67024,7 +67025,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8538515787238207447}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
