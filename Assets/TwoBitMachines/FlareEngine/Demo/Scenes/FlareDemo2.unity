@@ -516,7 +516,7 @@ RectTransform:
   m_Children:
   - {fileID: 708151374}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1239,7 +1239,7 @@ Transform:
   - {fileID: 1173594030}
   - {fileID: 221037952}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &213174611
 GameObject:
@@ -2482,7 +2482,7 @@ MonoBehaviour:
     value: 0
   foldOut: 1
   eventFoldOut: 1
-  minFoldOut: 0
+  minFoldOut: 1
   maxFoldOut: 0
   changedFoldOut: 0
   increasedFoldOut: 0
@@ -2591,9 +2591,9 @@ MonoBehaviour:
   loopSequence: 1
   resetOnComplete: 0
   point:
-  - {x: -3, y: -0}
-  - {x: 9, y: 0}
-  oldPosition: {x: 0, y: 0, z: 0}
+  - {x: -4, y: 0}
+  - {x: 8, y: 0}
+  oldPosition: {x: -1, y: 0, z: 0}
 --- !u!114 &392002759
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3135,7 +3135,7 @@ MonoBehaviour:
   playInScene: 0
   resetPlayFrame: 0
   frameCounter: 0
-  frameTimer: -124.90306
+  frameTimer: -92.87352
   zoom: 0.5
   propertyFoldOut: 0
   resetSprites: 0
@@ -3349,7 +3349,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &393444796
 GameObject:
@@ -4130,7 +4130,7 @@ Transform:
   - {fileID: 1599272437}
   - {fileID: 8057954}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &582096200
 GameObject:
@@ -4194,7 +4194,7 @@ Transform:
   - {fileID: 1638293910}
   - {fileID: 695340863}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &620945111
 GameObject:
@@ -9450,7 +9450,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &685563441
 GameObject:
@@ -19286,7 +19286,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1086114010
 GameObject:
@@ -20285,7 +20285,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1105252480
 MonoBehaviour:
@@ -23849,7 +23849,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1173594029
 GameObject:
@@ -26117,7 +26117,7 @@ MonoBehaviour:
   onMinValue:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1335695375}
+      - m_Target: {fileID: 392002760}
         m_TargetAssemblyTypeName: TwoBitMachines.FlareEngine.AIFSM, Assembly-CSharp
         m_MethodName: ChangeState
         m_Mode: 5
@@ -26272,9 +26272,9 @@ MonoBehaviour:
   loopSequence: 1
   resetOnComplete: 0
   point:
-  - {x: -3, y: -0}
-  - {x: 9, y: 0}
-  oldPosition: {x: 0, y: 0, z: 0}
+  - {x: 3.5, y: 0}
+  - {x: 15.5, y: 0}
+  oldPosition: {x: 6.5, y: 0, z: 0}
 --- !u!114 &1335695374
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26810,14 +26810,14 @@ MonoBehaviour:
   tabIndex: 0
   previewArea: 1
   scrollPosition: {x: 0, y: 0}
-  offsetPosition: {x: 59.75, y: 59.75}
+  offsetPosition: {x: 98.125, y: 98.125}
   color: {r: 1, g: 1, b: 1, a: 1}
   playInInspector: 1
   playInScene: 0
   resetPlayFrame: 0
   frameCounter: 0
-  frameTimer: -29.670261
-  zoom: 0.5
+  frameTimer: 1.5015945
+  zoom: 0.25
   propertyFoldOut: 0
   resetSprites: 0
   propertyIndex: 0
@@ -27025,12 +27025,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335695367}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.45, y: 0, z: 0}
+  m_LocalPosition: {x: 6.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1337168224
 GameObject:
@@ -29640,7 +29640,7 @@ Transform:
   m_Children:
   - {fileID: 893310049}
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1421770224
 MonoBehaviour:
@@ -29739,7 +29739,7 @@ Transform:
   - {fileID: 2036848466}
   - {fileID: 929521152}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1438540799
 GameObject:
@@ -43657,1154 +43657,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677984163}
   m_CullTransparentMesh: 1
---- !u!1 &1680862259
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1680862271}
-  - component: {fileID: 1680862270}
-  - component: {fileID: 1680862269}
-  - component: {fileID: 1680862268}
-  - component: {fileID: 1680862267}
-  - component: {fileID: 1680862266}
-  - component: {fileID: 1680862265}
-  - component: {fileID: 1680862264}
-  - component: {fileID: 1680862263}
-  - component: {fileID: 1680862262}
-  - component: {fileID: 1680862261}
-  - component: {fileID: 1680862260}
-  m_Layer: 8
-  m_Name: Gumba
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1680862260
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680862259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f42f2b3ac1526247a5f30a629ad1f02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeSetup: 0
-  nodeState: 0
-  nodeType: 1
-  nodeParent: {fileID: 0}
-  completed: 0
-  nameType: OnEvent
-  fsmChild: 
-  fsmIndex: 0
-  selectCounter: 10
-  failedCounter: 10
-  interruptCounter: 10
-  rectSize: {x: 0, y: 0}
-  rectPosition: {x: 0, y: 0}
-  add: 0
-  active: 0
-  delete: 0
-  deleteAsk: 0
-  showInfo: 0
-  failed: 0
-  foldOut: 1
-  inspect: 0
-  comments: 0
-  isDragged: 0
-  wasDragged: 0
-  rectActive: 0
-  copySelected: 0
-  hideChildren: 0
-  interruptCheck: 0
-  inspectSelected: 0
-  lookingForChild: 0
-  childActive: 0
-  openNext: 1
-  canHaveChildren: 1
-  refName: []
-  message: []
-  onEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1680862259}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1680862261
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680862259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96d84b4b0e2acb34596f0dd2b39c1225, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeSetup: 0
-  nodeState: 0
-  nodeType: 1
-  nodeParent: {fileID: 0}
-  completed: 0
-  nameType: Clock
-  fsmChild: 
-  fsmIndex: 0
-  selectCounter: 10
-  failedCounter: 10
-  interruptCounter: 10
-  rectSize: {x: 0, y: 0}
-  rectPosition: {x: 0, y: 0}
-  add: 0
-  active: 0
-  delete: 0
-  deleteAsk: 0
-  showInfo: 0
-  failed: 0
-  foldOut: 0
-  inspect: 0
-  comments: 0
-  isDragged: 0
-  wasDragged: 0
-  rectActive: 0
-  copySelected: 0
-  hideChildren: 0
-  interruptCheck: 0
-  inspectSelected: 0
-  lookingForChild: 0
-  childActive: 0
-  openNext: 1
-  canHaveChildren: 1
-  refName: []
-  message: []
-  type: 0
-  wait: 2
-  min: 2
-  max: 5
-  dontReset: 0
-  waitAnimation: 
-  onBeginClock:
-    m_PersistentCalls:
-      m_Calls: []
-  onFinishClock:
-    m_PersistentCalls:
-      m_Calls: []
-  eventsFoldOut: 0
-  beginFoldOut: 0
-  finishFoldOut: 0
---- !u!114 &1680862262
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680862259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83e53b5f8566b5040979377f7b4e592d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeSetup: 0
-  nodeState: 0
-  nodeType: 1
-  nodeParent: {fileID: 0}
-  completed: 0
-  nameType: EnableBehaviour
-  fsmChild: 
-  fsmIndex: 0
-  selectCounter: 10
-  failedCounter: 10
-  interruptCounter: 10
-  rectSize: {x: 0, y: 0}
-  rectPosition: {x: 0, y: 0}
-  add: 0
-  active: 0
-  delete: 0
-  deleteAsk: 0
-  showInfo: 0
-  failed: 0
-  foldOut: 0
-  inspect: 0
-  comments: 0
-  isDragged: 0
-  wasDragged: 0
-  rectActive: 0
-  copySelected: 0
-  hideChildren: 0
-  interruptCheck: 0
-  inspectSelected: 0
-  lookingForChild: 0
-  childActive: 0
-  openNext: 1
-  canHaveChildren: 1
-  refName: []
-  message: []
-  behaviourRef: {fileID: 1680862270}
-  renderRef: {fileID: 0}
-  enable: 0
---- !u!114 &1680862263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680862259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc5a25c181809f4493d523a8a014665, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isHealth: 0
-  initialized: 0
-  variableName: name
-  currentValue: 1
-  minValue: 0
-  maxValue: 1
-  save: 0
-  broadcastValue: 0
-  isScriptableObject: 0
-  saveManually: 0
-  soReference: {fileID: 0}
-  callDamageEffect: 0
-  positionOffset: 1
-  worldEffect: 
-  onValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  onMinValue:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1680862267}
-        m_TargetAssemblyTypeName: TwoBitMachines.FlareEngine.AIFSM, Assembly-CSharp
-        m_MethodName: ChangeState
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Killed
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1680862268}
-        m_TargetAssemblyTypeName: TwoBitMachines.TwoBitSprite.SpriteEngine, Assembly-CSharp
-        m_MethodName: SetNewAnimation
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Dead
-          m_BoolArgument: 0
-        m_CallState: 2
-  onMaxValue:
-    m_PersistentCalls:
-      m_Calls: []
-  onValueIncreased:
-    m_PersistentCalls:
-      m_Calls: []
-  onValueDecreased:
-    m_PersistentCalls:
-      m_Calls: []
-  onLoadConditionTrue:
-    m_PersistentCalls:
-      m_Calls: []
-  onLoadConditionFalse:
-    m_PersistentCalls:
-      m_Calls: []
-  onSceneStart:
-    m_PersistentCalls:
-      m_Calls: []
-  saveFloat:
-    value: 0
-  foldOut: 1
-  eventFoldOut: 1
-  minFoldOut: 1
-  maxFoldOut: 0
-  changedFoldOut: 0
-  increasedFoldOut: 0
-  decreasedFoldOut: 0
-  changedGOFoldOut: 0
-  shieldFoldOut: 0
-  impactFoldOut: 0
-  damageFoldOut: 0
-  damageEffectFoldOut: 0
-  loadFoldOutTrue: 0
-  loadFoldOutFalse: 0
-  sceneStartFoldOut: 0
-  createSO: 0
-  recoveryTime: 0
-  counter: 0
-  hasShield: 0
-  readImpactOnly: 0
-  shieldDirection: 1
-  impactWE: 
-  character: {fileID: 0}
-  onShield:
-    m_PersistentCalls:
-      m_Calls: []
-  onImpact:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1680862264
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680862259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8721728c037742b4782cf8e4d0d09632, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeSetup: 0
-  nodeState: 0
-  nodeType: 1
-  nodeParent: {fileID: 0}
-  completed: 0
-  nameType: FollowTarget
-  fsmChild: 
-  fsmIndex: 0
-  selectCounter: 10
-  failedCounter: 10
-  interruptCounter: 10
-  rectSize: {x: 0, y: 0}
-  rectPosition: {x: 0, y: 0}
-  add: 0
-  active: 0
-  delete: 0
-  deleteAsk: 0
-  showInfo: 0
-  failed: 0
-  foldOut: 0
-  inspect: 0
-  comments: 0
-  isDragged: 0
-  wasDragged: 0
-  rectActive: 0
-  copySelected: 0
-  hideChildren: 0
-  interruptCheck: 0
-  inspectSelected: 0
-  lookingForChild: 0
-  childActive: 0
-  openNext: 0
-  canHaveChildren: 1
-  refName:
-  - Points
-  message: []
-  target: {fileID: 1680862265}
-  axis: 1
-  speed: 1.5
-  findDistance: 0
-  hasGravity: 0
-  pauseTimer: 0
-  pauseOnChange: 0
-  startIndex: 0
-  xVelRef: 0
-  crossedThreshold: 0
-  refreshTarget: 0
---- !u!114 &1680862265
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680862259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0df15e5f7a376534da118db32be34cfe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dataName: Points
-  blackboardType: 0
-  foldOut: 1
-  delete: 0
-  deleteAsk: 0
-  refName: []
-  findType: 2
-  randomOffset: {x: 0, y: 0}
-  loopSequence: 1
-  resetOnComplete: 0
-  point:
-  - {x: -3, y: -0}
-  - {x: 9, y: 0}
-  oldPosition: {x: 0, y: 0, z: 0}
---- !u!114 &1680862266
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680862259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1353c2b8524781a42a64ea27a9fd7d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeSetup: 0
-  nodeState: 0
-  nodeType: 0
-  nodeParent: {fileID: 0}
-  completed: 0
-  nameType: Root
-  fsmChild: 
-  fsmIndex: 0
-  selectCounter: 10
-  failedCounter: 10
-  interruptCounter: 10
-  rectSize: {x: 0, y: 0}
-  rectPosition: {x: 0, y: 0}
-  add: 0
-  active: 0
-  delete: 0
-  deleteAsk: 0
-  showInfo: 0
-  failed: 0
-  foldOut: 0
-  inspect: 0
-  comments: 0
-  isDragged: 0
-  wasDragged: 0
-  rectActive: 0
-  copySelected: 0
-  hideChildren: 0
-  interruptCheck: 0
-  inspectSelected: 0
-  lookingForChild: 0
-  childActive: 0
-  openNext: 1
-  canHaveChildren: 1
-  refName: []
-  message: []
-  canInterrupt: 0
-  onInterrupt: 0
-  children: []
-  defaultSignal: Signal
-  useSignal: 0
-  currentChildIndex: 0
-  pause: 0
---- !u!114 &1680862267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680862259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09a6abfb407f89240b4fe45a1f0a99e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
-  world:
-    climbSlopes: 0
-    rotateToSlope: 0
-    rectifyInAir: 0
-    collideWorldOnly: 0
-    horizontalCorners: 0
-    useMovingPlatform: 0
-    rotateToWall: 0
-    useBridges: 1
-    jumpThroughEdge: 1
-    maxSlopeAngle: 45
-    rotateRate: 0.5
-    crushedWE: 
-    skipDownEdge: 0
-    onCrushed:
-      m_PersistentCalls:
-        m_Calls: []
-    box:
-      rays: {x: 3, y: 2}
-    rotateTo: 0
-    foldOut: 0
-    eventsFoldOut: 0
-    crushedFoldOut: 0
-  turnOffSignals: 0
-  pushBackActive: 0
-  executeInLateUpdate: 0
-  mainFoldOut: 0
-  canUseTool: 1
-  onToolSet:
-    m_PersistentCalls:
-      m_Calls: []
-  setVelocity: {x: 0, y: 0}
-  root: {fileID: 1680862266}
-  thisIsPlayer: 0
-  resetToActive: 0
-  movingPlatformGravity: 0
-  gravity:
-    jumpHeight: 5
-    jumpTime: 1
-    multiplier: 1
-    terminalVelocity: 40
-  damage:
-    layer:
-      serializedVersion: 2
-      m_Bits: 512
-    direction: 0
-    canDealDamage: 1
-    pauseTimer: 0
-    damage: 1
-    force: 1
-    counter: 0
-    damageFoldOut: 0
-    pauseDamage: 0
-    pauseDamageTimer: 0
-  data:
-  - {fileID: 1680862265}
-  tempChildren: []
-  units:
-  - {fileID: 1335695367}
-  - {fileID: 392002752}
-  inspectNode: {fileID: 0}
-  nodeMessage:
-    position: {x: 0, y: 0}
-    size: {x: 0, y: 0}
-    message: 
-    isDragged: 0
-  oldGUIMatrix:
-    e00: 0
-    e01: 0
-    e02: 0
-    e03: 0
-    e10: 0
-    e11: 0
-    e12: 0
-    e13: 0
-    e20: 0
-    e21: 0
-    e22: 0
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 0
-  tempNameType: 
-  inspectNameType: 
-  barIndex: 0
-  tempUnits: 2
-  menuIndex: 0
-  deleteIndex: 0
-  signalIndex: 0
-  panX: 0
-  panY: 0
-  snapToGrid: 10
-  scaling: 1
-  add: 0
-  active: 0
-  foldOut: 0
-  foundNodes: 0
-  settingsFoldOut: 0
-  showNodeMessage: 0
-  isSelectingNodes: 0
-  blackboardFoldOut: 0
-  collisionSettings: 0
-  aNodeIsBeingDragged: 0
-  window: {fileID: 0}
-  selectSize: {x: 0, y: 0}
-  selectPosition: {x: 0, y: 0}
-  ScrollPosition: {x: 0, y: 0}
-  startHoldPoint: {x: 0, y: 0}
-  stateActionIndex: {x: 1, y: 1}
-  state:
-  - action:
-    - node: {fileID: 1680862264}
-      onSuccess: Follow
-      onFailure: Follow
-      goToSuccess: 0
-      goToFailure: 0
-      foldOut: 0
-      deleteAsk: 0
-      delete: 0
-      add: 0
-    stateName: Follow
-    defaultSignal: Signal
-    cantInterrupt: 0
-    useSignal: 0
-    childIndex: 0
-    type: 0
-    showStateExtra: 0
-    editName: 0
-    signal: 0
-    changeState: 0
-    deleteAsk: 0
-    foldOut: 0
-    active: 0
-    delete: 0
-    add: 0
-    menu: 0
-    signalIndex: 0
-  - action:
-    - node: {fileID: 1680862262}
-      onSuccess: Follow
-      onFailure: Follow
-      goToSuccess: 0
-      goToFailure: 0
-      foldOut: 0
-      deleteAsk: 0
-      delete: 0
-      add: 0
-    - node: {fileID: 1680862261}
-      onSuccess: Follow
-      onFailure: Follow
-      goToSuccess: 0
-      goToFailure: 0
-      foldOut: 0
-      deleteAsk: 0
-      delete: 0
-      add: 0
-    - node: {fileID: 1680862260}
-      onSuccess: Dead
-      onFailure: Dead
-      goToSuccess: 1
-      goToFailure: 1
-      foldOut: 0
-      deleteAsk: 0
-      delete: 0
-      add: 0
-    stateName: Killed
-    defaultSignal: Signal
-    cantInterrupt: 0
-    useSignal: 0
-    childIndex: 0
-    type: 2
-    showStateExtra: 0
-    editName: 0
-    signal: 0
-    changeState: 0
-    deleteAsk: 0
-    foldOut: 0
-    active: 0
-    delete: 0
-    add: 0
-    menu: 0
-    signalIndex: 0
-  - action: []
-    stateName: Dead
-    defaultSignal: Signal
-    cantInterrupt: 0
-    useSignal: 0
-    childIndex: 0
-    type: 0
-    showStateExtra: 0
-    editName: 0
-    signal: 0
-    changeState: 0
-    deleteAsk: 0
-    foldOut: 0
-    active: 0
-    delete: 0
-    add: 0
-    menu: 0
-    signalIndex: 0
-  alwaysState: []
-  resetState:
-    action: []
-    stateName: State Name
-    defaultSignal: Signal
-    cantInterrupt: 0
-    useSignal: 0
-    childIndex: 0
-    type: 0
-    showStateExtra: 0
-    editName: 0
-    signal: 0
-    changeState: 0
-    deleteAsk: 0
-    foldOut: 0
-    active: 0
-    delete: 0
-    add: 0
-    menu: 1
-    signalIndex: -1
-  resetToFirst: 0
---- !u!114 &1680862268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680862259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7761d020ec0b05443be2e916ff4fb274, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  render: {fileID: 1680862269}
-  tree:
-    spriteFlip:
-    - nodes:
-      - nodes: []
-        sprite: flipLeft
-        signal: velXLeft
-        add: 0
-        active: 0
-        delete: 0
-        foldOut: 1
-        signalIndex: 0
-      - nodes: []
-        sprite: flipRight
-        signal: velXRight
-        add: 0
-        active: 0
-        delete: 0
-        foldOut: 1
-        signalIndex: 0
-      sprite: 
-      signal: alwaysTrue
-      add: 0
-      active: 0
-      delete: 0
-      foldOut: 1
-      signalIndex: 0
-    branch: []
-    signals:
-    - velXLeft
-    - velXRight
-    - alwaysTrue
-    active: 0
-    createState: 0
-    stateFoldOut: 0
-    signalFoldOut: 0
-    signalIndex: 0
-    scrollIndex: 0
-    signalRef:
-      all:
-      - name: velX
-        use: 0
-        canDelete: 0
-      - name: velXLeft
-        use: 1
-        canDelete: 0
-      - name: velXRight
-        use: 1
-        canDelete: 0
-      - name: velXZero
-        use: 0
-        canDelete: 0
-      - name: velY
-        use: 0
-        canDelete: 0
-      - name: velYUp
-        use: 0
-        canDelete: 0
-      - name: velYDown
-        use: 0
-        canDelete: 0
-      - name: velYZero
-        use: 0
-        canDelete: 0
-      - name: onGround
-        use: 0
-        canDelete: 0
-      - name: jumping
-        use: 0
-        canDelete: 0
-      - name: airJump
-        use: 0
-        canDelete: 0
-      - name: airFloat
-        use: 0
-        canDelete: 0
-      - name: highJump
-        use: 0
-        canDelete: 0
-      - name: windJump
-        use: 0
-        canDelete: 0
-      - name: running
-        use: 0
-        canDelete: 0
-      - name: hover
-        use: 0
-        canDelete: 0
-      - name: ladderClimb
-        use: 0
-        canDelete: 0
-      - name: ceilingClimb
-        use: 0
-        canDelete: 0
-      - name: crouch
-        use: 0
-        canDelete: 0
-      - name: crouchWalk
-        use: 0
-        canDelete: 0
-      - name: friction
-        use: 0
-        canDelete: 0
-      - name: sliding
-        use: 0
-        canDelete: 0
-      - name: autoGround
-        use: 0
-        canDelete: 0
-      - name: dashing
-        use: 0
-        canDelete: 0
-      - name: dashX
-        use: 0
-        canDelete: 0
-      - name: dashY
-        use: 0
-        canDelete: 0
-      - name: dashDiagonal
-        use: 0
-        canDelete: 0
-      - name: pushBack
-        use: 0
-        canDelete: 0
-      - name: pushBackLeft
-        use: 0
-        canDelete: 0
-      - name: pushBackRight
-        use: 0
-        canDelete: 0
-      - name: inWater
-        use: 0
-        canDelete: 0
-      - name: swimming
-        use: 0
-        canDelete: 0
-      - name: floating
-        use: 0
-        canDelete: 0
-      - name: wall
-        use: 0
-        canDelete: 0
-      - name: wallLeft
-        use: 0
-        canDelete: 0
-      - name: wallRight
-        use: 0
-        canDelete: 0
-      - name: wallClimb
-        use: 0
-        canDelete: 0
-      - name: wallHold
-        use: 0
-        canDelete: 0
-      - name: wallSlide
-        use: 0
-        canDelete: 0
-      - name: wallHang
-        use: 0
-        canDelete: 0
-      - name: wallSlideJump
-        use: 0
-        canDelete: 0
-      - name: wallCornerGrab
-        use: 0
-        canDelete: 0
-      - name: recoil
-        use: 0
-        canDelete: 0
-      - name: recoilLeft
-        use: 0
-        canDelete: 0
-      - name: recoilRight
-        use: 0
-        canDelete: 0
-      - name: recoilUp
-        use: 0
-        canDelete: 0
-      - name: recoilDown
-        use: 0
-        canDelete: 0
-      - name: recoilShake
-        use: 0
-        canDelete: 0
-      - name: recoilSlide
-        use: 0
-        canDelete: 0
-      - name: mouseDirectionLeft
-        use: 0
-        canDelete: 0
-      - name: mouseDirectionRight
-        use: 0
-        canDelete: 0
-      - name: meleeCombo
-        use: 0
-        canDelete: 0
-      - name: zipline
-        use: 0
-        canDelete: 0
-      - name: alwaysTrue
-        use: 1
-        canDelete: 0
-      - name: alwaysFalse
-        use: 0
-        canDelete: 0
-      extra: []
-      foldOutVelocity: 0
-      foldOutWall: 0
-      foldOutWorld: 0
-      foldOutRecoil: 0
-      foldOutAttack: 0
-      foldOutUtility: 0
-      foldOutExtra: 0
-      button: 0
-      createSignal: 
-  sort: 0
-  add: 0
-  active: 0
-  foldOut: 0
-  open: 0
-  delete: 0
-  deleteAsk: 0
-  spriteMenu: 0
-  eventFoldOut: 0
-  spritesFoldOut: 0
-  loopOnceFoldOut: 0
-  transitionFoldOut: 0
-  createTransition: 0
-  shiftNames: 0
-  shiftProperty: 0
-  signalIndex: 0
-  tabIndex: 0
-  previewArea: 1
-  scrollPosition: {x: 0, y: 0}
-  offsetPosition: {x: 59.75, y: 59.75}
-  color: {r: 1, g: 1, b: 1, a: 1}
-  playInInspector: 1
-  playInScene: 0
-  resetPlayFrame: 0
-  frameCounter: 0
-  frameTimer: 2.8031921
-  zoom: 0.5
-  propertyFoldOut: 0
-  resetSprites: 0
-  propertyIndex: 0
-  rendererSprite: {fileID: 0}
-  settingRenderer: 0
-  spriteIndex: 1
-  scrollIndex: 0
-  sprites:
-  - property: []
-    frame:
-    - onEnterFrame:
-        m_PersistentCalls:
-          m_Calls: []
-      sprite: {fileID: -8057553438986475601, guid: 394ac0cdd873ca440a105fbbe5f2276f, type: 3}
-      rate: 0.33333334
-      add: 0
-      delete: 0
-      eventFoldOut: 0
-    - onEnterFrame:
-        m_PersistentCalls:
-          m_Calls: []
-      sprite: {fileID: -4680621129230420543, guid: 394ac0cdd873ca440a105fbbe5f2276f, type: 3}
-      rate: 0.33333334
-      add: 0
-      delete: 0
-      eventFoldOut: 0
-    - onEnterFrame:
-        m_PersistentCalls:
-          m_Calls: []
-      sprite: {fileID: -8672607819356268612, guid: 394ac0cdd873ca440a105fbbe5f2276f, type: 3}
-      rate: 0.33333334
-      add: 0
-      delete: 0
-      eventFoldOut: 0
-    - onEnterFrame:
-        m_PersistentCalls:
-          m_Calls: []
-      sprite: {fileID: 6717675339430042157, guid: 394ac0cdd873ca440a105fbbe5f2276f, type: 3}
-      rate: 0.33333334
-      add: 0
-      delete: 0
-      eventFoldOut: 0
-    onLoopOnce:
-      m_PersistentCalls:
-        m_Calls: []
-    loopStartIndex: 0
-    loopOnce: 0
-    name: Walk
-    canSync: 0
-    syncID: 0
-    lastFrame: 0
-    rememberLastFrame: 0
-    randomAnimations: []
-    isRandom: 0
-    transition: []
-    hasTransition: 0
-    hasChangedDirection: 0
-    active: 0
-    frameIndex: 0
-    signalIndex: 0
-    globalRate: 3
-    transitionFoldOut: 0
-    addTransition: 0
-    deleteTransition: 0
-    canDelete: 0
-  - property: []
-    frame:
-    - onEnterFrame:
-        m_PersistentCalls:
-          m_Calls: []
-      sprite: {fileID: -7493360873406779874, guid: 394ac0cdd873ca440a105fbbe5f2276f, type: 3}
-      rate: 4
-      add: 0
-      delete: 0
-      eventFoldOut: 0
-    onLoopOnce:
-      m_PersistentCalls:
-        m_Calls: []
-    loopStartIndex: 0
-    loopOnce: 0
-    name: Dead
-    canSync: 0
-    syncID: 0
-    lastFrame: 0
-    rememberLastFrame: 0
-    randomAnimations: []
-    isRandom: 0
-    transition: []
-    hasTransition: 0
-    hasChangedDirection: 0
-    active: 0
-    frameIndex: 0
-    signalIndex: 0
-    globalRate: 0.25
-    transitionFoldOut: 0
-    addTransition: 0
-    deleteTransition: 0
-    canDelete: 0
-  spriteSwap: {fileID: 0}
-  references:
-    version: 2
-    RefIds: []
---- !u!212 &1680862269
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680862259}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 600b14177a5d3864faefaf660c5fb768, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -8057553438986475601, guid: 394ac0cdd873ca440a105fbbe5f2276f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!61 &1680862270
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680862259}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.5}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!4 &1680862271
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680862259}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.27, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1718140288
 GameObject:
   m_ObjectHideFlags: 0
@@ -44978,7 +43830,7 @@ Transform:
   m_Children:
   - {fileID: 1737204273}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1722448943
 GameObject:
@@ -46092,7 +44944,7 @@ MonoBehaviour:
     signal: 0
     changeState: 0
     deleteAsk: 0
-    foldOut: 0
+    foldOut: 1
     active: 0
     delete: 0
     add: 0
@@ -46128,7 +44980,7 @@ MonoBehaviour:
     signal: 0
     changeState: 0
     deleteAsk: 0
-    foldOut: 0
+    foldOut: 1
     active: 0
     delete: 0
     add: 0
@@ -46202,7 +45054,7 @@ MonoBehaviour:
     signal: 0
     changeState: 0
     deleteAsk: 0
-    foldOut: 0
+    foldOut: 1
     active: 0
     delete: 0
     add: 0
@@ -46412,7 +45264,7 @@ MonoBehaviour:
   sort: 0
   add: 0
   active: 0
-  foldOut: 0
+  foldOut: 1
   open: 0
   delete: 0
   deleteAsk: 0
@@ -46428,14 +45280,14 @@ MonoBehaviour:
   tabIndex: 0
   previewArea: 1
   scrollPosition: {x: 0, y: 0}
-  offsetPosition: {x: 59.75, y: 59.75}
+  offsetPosition: {x: 98.125, y: 98.125}
   color: {r: 0.4339623, g: 0.4065529, b: 0.31318974, a: 1}
   playInInspector: 1
   playInScene: 0
   resetPlayFrame: 0
-  frameCounter: 1
-  frameTimer: -165.2105
-  zoom: 0.5
+  frameCounter: 0
+  frameTimer: 0.035957336
+  zoom: 0.25
   propertyFoldOut: 0
   resetSprites: 0
   propertyIndex: 0
@@ -47965,7 +46817,7 @@ Transform:
   m_Children:
   - {fileID: 1086114012}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1940026949
 GameObject:
@@ -52333,7 +51185,7 @@ Transform:
   m_Children:
   - {fileID: 1249875966}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2115768389
 MonoBehaviour:
@@ -53671,7 +52523,7 @@ Transform:
   - {fileID: 1479204794}
   - {fileID: 393444797}
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2388640088980425384
 GameObject:
